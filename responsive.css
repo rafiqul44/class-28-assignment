@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@media(max-width:1200px){
+    .last-btn1 a {
+        padding: 8px 16px;
+    }
+    .last-btn2 a {
+     padding: 10px 10px;
+    }
+}
+
+@media(max-width:992px){
+    .slider-caption .form-control {
+        padding: 8px 12px;
+        font-size: 28px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .slider-caption button {
+        
+        padding: 5px 24px;
+        font-size: 29px;
+        font-weight: 500;
+        
+        margin-top: 10px;
+    }
+    .slider-caption h4 {
+        margin-bottom: 12px;
+        font-size: 21px;
+    }
+    .slider-caption h2 {
+        margin-bottom: 30px;
+        font-size: 37px;
+    }
+    .text-left {
+        margin-top: 0px;
+        line-height: 1.8rem;
+    }
+    .text-main h2 {
+        padding: 20px 0;
+        text-align: center;
+    }
+    input.form-control.form-control-lg {
+        font-size: 17px;
+    }
+}
+@media(max-width:768px){
+    .left-test-sec p {
+        padding: 9px 16px;
+        text-align: justify;
+    }
+    .left-test-sec h4 {
+        margin: 0 14px;
+        padding: left;
+    }
+    input.form-control.form-control-lg {
+        padding: 0 1px;
+    }
+    input.form-control.form-control-lg {
+        font-size: 13px;
+    }
+    .form-inner h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    h1.text-center.py-3 {
+        font-size: 26px;
+    }
+}

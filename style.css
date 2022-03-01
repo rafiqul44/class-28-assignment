@@ -1,0 +1,326 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family:'Work Sans', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+.joy-header a img{
+    width: 50px;
+}
+.joy-header ul li a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.joy-header a span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.joy-header.navbar-brand{}
+.joy-header a img{
+    font-size: 25px;
+    background-color: #5779de;
+    color: white;
+    font-weight: 500;
+    border-radius: 15px;
+   
+}
+.pic img{
+    width: 50%;
+}
+/* slider section */
+    
+.slider-section{
+    background:url(./img/mbr-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 180px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
+    z-index:-1 ;
+}
+
+
+
+.slider-caption h4{
+    margin-bottom: 30px;
+}
+.slider-caption h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.slider-caption .form-control{
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.slider-caption button {
+    background-color: #5ba533;
+    padding: 11px 20px;
+    font-size: 30px;
+    font-weight: 600;
+    border-color: #5ba533;
+}
+.slider-caption button:hover{
+    background-color: #f6f9ff;
+}
+
+.slider-section::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+/* feature section */
+.left-img-sec img{
+    width: 400px;
+}
+
+.box1 img{
+    height: 220px;
+    width: auto;
+}
+.section3{
+    background-color: #f6f9ff;
+}
+
+.pricing-box ul  {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-box ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    font-size: 20px;
+}
+.pricing ul li span{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    width: 20px;
+}
+.feedback-img img{
+    width: 150px;
+    height: 150px;
+    
+}
+.fed-tex{
+    position: relative;
+    top: 43px;
+}
+/* section3 */
+.text-left {
+    margin-top: 31px;
+    line-height: 1.8rem;
+}
+.text-left p{
+    text-align: left;
+}
+
+
+/* future section */
+.feature-section{
+    
+}
+.feature-item {
+    height: 300px;
+    box-shadow: 3px 15px 36px rgb(212, 210, 210);
+}
+.left-img-sec{
+    width: 40%;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+}
+.left-test-sec {
+    width: 60%;
+}
+.left-test-sec h4{}
+.left-test-sec p{}
+
+/* Photo Gallery section start*/
+
+.portpolio-item{
+    position: relative;
+    display: block;
+}
+.gallery-picture a{}
+.rafiq{
+    position: relative;
+}
+
+.gallery-picture {
+    position: relative;
+}
+.gallery-picture::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(126, 151, 224, 0.5);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.gallery-picture:hover::after{
+ opacity: 1;
+ visibility: visible;
+}
+
+/* Photo Gallery section End*/
+
+/* pricing section start*/
+.pricing-text{}
+.pricing-text h1{}
+.pricing-text p{}
+.pricing-box{}
+.pricing-box h2 {
+    text-align: center;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.pricing-box ul {}
+.pricing-box ul li{}
+.pricing-box ul li{}
+.pricing ul li span {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0 10px;
+    width: 20px;
+    height: 20px;
+    padding: 5px 2px;
+    display: inline-block;
+    margin: 0px 36px;
+    color: blue;
+}
+
+.pb-4 {
+    padding-bottom: 30px !important;
+}
+
+/* Feedback section */
+.quote span {
+    font-size: 84px;
+    color: #f5f1f1c4;
+}
+
+/* team history section */
+.team-history{
+    background-color: #edf0f5;
+}
+.text-main{}
+.text-main h2{
+    padding: 20px 0;
+}
+.text-left-history{}
+.text-left-history p{
+    text-align: left;
+}
+.text-right-history{}
+.text-right-history p{
+    text-align: left;
+    margin-left: 20px;
+}
+.history-picture{}
+.history-picture img {
+    width: 110px;
+    position: relative;
+    top: 33px;
+    left: 18px;
+}
+.history-text{
+    background-color: #fff;
+    padding: 40px 20px;
+}
+.history-text h3{}
+.history-text p{
+    text-align: left;
+}
+.history-main{}
+
+/* form section */
+.text-area{
+    margin-top: 15px;
+}
+
+.btn-one{
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px 10px;
+    
+    color: white;
+}
+.email-pt{
+    padding: 15px 0;
+}
+.first-last{
+    
+}
+.form-main{
+    padding: 15px 35px;
+}
+.form-inner h2{
+    text-align: center;
+}
+.last-btn1 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid green;
+    color:green;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.last-btn1 a:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.last-btn2 a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: green;
+    padding: 17px 20px;
+    border-radius: 10px;
+
+    
+}
+.last-btn2 a:hover{
+    background-color: black;
+}
+
+
+/* footer */
+.ft{
+    background-color:#edf0f5;
+    margin: 10px 0;
+}
+.ft p {
+    padding: 2px;
+    line-height: 11px;
+    padding-top: 17px;
+}
